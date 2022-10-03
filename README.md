@@ -40,6 +40,11 @@ Here's a walkthrough of implemented user stories:
 ## Notes
 
 Describe any challenges encountered while building the app.
+The tutorial is out of date. Android studio nuked my gradle scripts and build when I tried changing a few manifest params lol.
+- I had to start the project all over as a result.
+- Twitter API 2.0 is better. 
+- CallbackURL given to the OAuthBaseClient() and the twitter whitelist are not immediately obvious. 
+    I had to dig pretty deep to figure out why my program was throwing the most cryptic errors.
 
 ## Open-source libraries used
 
